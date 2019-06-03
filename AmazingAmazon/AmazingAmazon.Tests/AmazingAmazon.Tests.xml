@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AmazingAmazon.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:AmazingAmazon.Tests.SignInToAmazonUsingChromeBrowser">
+            <summary>
+            Test case that verifies authentication to Amazon.com using the Chrome browser.
+            </summary>
+        </member>
+        <member name="F:AmazingAmazon.Tests.SignInToAmazonUsingChromeBrowser.driver">
+            <summary>
+            The instance of <see cref="T:OpenQA.Selenium.Chrome.ChromeDriver"/> that will automated the Chrome browser.
+            </summary>
+        </member>
+        <member name="M:AmazingAmazon.Tests.SignInToAmazonUsingChromeBrowser.#ctor(OpenQA.Selenium.Chrome.ChromeDriver)">
+            <summary>
+            Initializes a new instance of the <see cref="T:AmazingAmazon.Tests.SignInToAmazonUsingChromeBrowser"/> class.
+            </summary>
+            <param name="driver">
+             An instance of <see cref="T:OpenQA.Selenium.Chrome.ChromeDriver"/> that will automated the Chrome browser.
+            </param>
+        </member>
+        <member name="M:AmazingAmazon.Tests.SignInToAmazonUsingChromeBrowser._001">
+            <summary>
+            Test method that verifies authentication to Amazon.com.
+            </summary>
+        </member>
+        <member name="T:AmazingAmazon.Tests.SignInToAmazonUsingFirefoxBrowser">
+            <summary>
+            Test case that verifies authentication to Amazon.com using the Firefox browser.
+            </summary>
+        </member>
+        <member name="F:AmazingAmazon.Tests.SignInToAmazonUsingFirefoxBrowser.driver">
+            <summary>
+            The instance of <see cref="T:OpenQA.Selenium.Firefox.FirefoxDriver"/> that will automated the Firefox browser.
+            </summary>
+        </member>
+        <member name="M:AmazingAmazon.Tests.SignInToAmazonUsingFirefoxBrowser.#ctor(OpenQA.Selenium.Firefox.FirefoxDriver)">
+            <summary>
+            Initializes a new instance of the <see cref="T:AmazingAmazon.Tests.SignInToAmazonUsingFirefoxBrowser"/> class.
+            </summary>
+            <param name="driver">
+             An instance of <see cref="T:OpenQA.Selenium.Firefox.FirefoxDriver"/> that will automated the Firefox browser.
+            </param>
+        </member>
+        <member name="M:AmazingAmazon.Tests.SignInToAmazonUsingFirefoxBrowser._001">
+            <summary>
+            Test method that verifies authentication to Amazon.com.
+            </summary>
+        </member>
+        <member name="M:AmazingAmazon.Tests.Startup.#ctor(Xunit.Abstractions.IMessageSink)">
+            <summary>
+            Initializes a new instance of the <see cref="T:AmazingAmazon.Tests.Startup"/> class.
+            </summary>
+            <param name="messageSink">
+            An endpoint for the reception of messages produced by tests.
+            </param>
+        </member>
+        <member name="M:AmazingAmazon.Tests.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures dependency injection.
+            </summary>
+            <param name="services">
+            A collection of service descriptors.
+            </param>
+        </member>
+    </members>
+</doc>

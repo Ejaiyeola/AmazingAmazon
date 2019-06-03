@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazingAmazon.Tests", "AmazingAmazon.Tests\AmazingAmazon.Tests.csproj", "{3C2DE4D9-7C71-4556-A687-CDE265C3D11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingAmazon.AutomationFramework", "AmazingAmazon.AutomationFramework\AmazingAmazon.AutomationFramework.csproj", "{06CDB4BB-6890-4513-9F07-1357025DEDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2DE4D9-7C71-4556-A687-CDE265C3D11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2DE4D9-7C71-4556-A687-CDE265C3D11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2DE4D9-7C71-4556-A687-CDE265C3D11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2DE4D9-7C71-4556-A687-CDE265C3D11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CDB4BB-6890-4513-9F07-1357025DEDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CDB4BB-6890-4513-9F07-1357025DEDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CDB4BB-6890-4513-9F07-1357025DEDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CDB4BB-6890-4513-9F07-1357025DEDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {551A3014-7CA2-4395-94DD-A0035D451C2C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/ejaiyeola
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AmazingAmazon.Tests\\AmazingAmazon.Tests.csproj
+		SccProjectName1 = AmazingAmazon.Tests
+		SccLocalPath1 = AmazingAmazon.Tests
+		SccProjectUniqueName2 = AmazingAmazon.AutomationFramework\\AmazingAmazon.AutomationFramework.csproj
+		SccProjectName2 = AmazingAmazon.AutomationFramework
+		SccLocalPath2 = AmazingAmazon.AutomationFramework
+	EndGlobalSection
+EndGlobal
